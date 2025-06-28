@@ -20,4 +20,4 @@ def get_sentiment(input: TextInput):
         sentiment = "Neutral"
 
     return {"sentiment": sentiment}
-    #this is main fast api code
+
