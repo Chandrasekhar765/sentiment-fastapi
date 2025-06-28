@@ -1,3 +1,4 @@
 fastapi
 uvicorn
 textblob
+#These are requirements
