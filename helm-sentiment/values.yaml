@@ -1,0 +1,25 @@
+replicaCount: 1
+
+image:
+  repository: chandrasekhar216/sentiment-fastapi
+  pullPolicy: IfNotPresent
+  tag: latest
+
+service:
+  type: NodePort
+  port: 8000
+  targetPort: 8000
+
+serviceAccount:
+  create: false
+
+ingress:
+  enabled: false
+
+autoscaling:
+  enabled: false
+
+test:
+  enabled: false
+
+resources: {}
